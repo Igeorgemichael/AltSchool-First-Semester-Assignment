@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background-color: #c5adff;
+  font-size: 1.6rem;
+  color: #000;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.card{
+  width: 50rem; 
+ background-color: #ffff;
+ border-radius: 9px;
+position: relative;
+}
+
+.card-img{
+  width: 100%;
+  border-radius: 9px 9px 0  0 ;
+}
+
+.card-content{
+  padding: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  overflow: hidden;
+}
+
+.watch{
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+.tag{
+position: absolute;
+background-color: #ffffb3;
+top: 15px;
+left: -30px;
+border-radius: 9px;
+letter-spacing: 1px;
+padding: 0 2px;
+}
